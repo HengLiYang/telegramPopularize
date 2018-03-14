@@ -8,12 +8,20 @@
     <meta content="telephone=no" name="format-detection" />
     <meta name="format-detection" content="email=no" />
     <meta http-equiv="Cache-Control" content="no-cache"/>
+    <link rel="stylesheet" href="../common/css/common1.css">
     <title>电报推广</title>
 </head>
 <body>
 <script type="text/javascript">
-    //使用rem换算，即设计图上的px值除以100得到的rem值
-    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    function copyUrl2()
+    {
+        var Url2=document.getElementsByClassName("biao1")[0];
+        Url2.select(); // 选择对象
+        document.execCommand("Copy"); // 执行浏览器复制命令
+        alert("已复制好，可贴粘。");
+    }
 </script>
+<textarea cols="20" rows="10" id="biao1" class="biao1">用户fffff定义的代码区域</textarea>
+<div  onClick="copyUrl2()">点击复制代码 </div>
 </body>
 </html>
