@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57cd28bd-a724-4755-b176-a47f104d6412" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/js/jquery.qrcode.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/css/userActiveSelf.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/js/userActiveSelf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/pages/userActiveSelf.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/common/css/common1.css" afterPath="$PROJECT_DIR$/common/css/common1.css" />
-      <change beforePath="$PROJECT_DIR$/common/js/jquery-3.2.1.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/css/bandUserPhone.css" afterPath="$PROJECT_DIR$/views/css/bandUserPhone.css" />
-      <change beforePath="$PROJECT_DIR$/views/js/activeShare.js" afterPath="$PROJECT_DIR$/views/js/activeShare.js" />
-      <change beforePath="$PROJECT_DIR$/views/js/bandUserPhone.js" afterPath="$PROJECT_DIR$/views/js/bandUserPhone.js" />
-      <change beforePath="$PROJECT_DIR$/views/pages/activeShare.html" afterPath="$PROJECT_DIR$/views/pages/activeShare.html" />
+      <change beforePath="$PROJECT_DIR$/views/css/activeShare.css" afterPath="$PROJECT_DIR$/views/css/activeShare.css" />
       <change beforePath="$PROJECT_DIR$/views/pages/bandUserPhone.html" afterPath="$PROJECT_DIR$/views/pages/bandUserPhone.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,24 +18,62 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activeShare.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/js/activeShare.js">
+      <file leaf-file-name="activeShare.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/activeShare.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="192">
+              <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activeShare.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/pages/activeShare.html">
+      <file leaf-file-name="activeShare.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/css/activeShare.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="37" />
-              <folding>
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userActiveSelf.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/userActiveSelf.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activeEnd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/activeEnd.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bandUserPhone.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/bandUserPhone.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activeRules.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/pages/activeRules.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,6 +87,7 @@
       <find>sendmsg</find>
       <find>getNoteCode-container</find>
       <find>nofix-tip-statement</find>
+      <find>generate-active-page-btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -76,20 +106,20 @@
         <option value="$PROJECT_DIR$/telegramPopularize/views/pages/activeRules.html" />
         <option value="$PROJECT_DIR$/views/pages/activeRules.html" />
         <option value="$PROJECT_DIR$/views/css/activeRules.css" />
-        <option value="$PROJECT_DIR$/views/css/activeShare.css" />
         <option value="$PROJECT_DIR$/common/js/jquery-3.2.1.min.js" />
         <option value="$PROJECT_DIR$/common/js/jquery-3.3.1.min.js" />
         <option value="$PROJECT_DIR$/views/模版.html" />
         <option value="$PROJECT_DIR$/views/css/bandUserPhone.css" />
         <option value="$PROJECT_DIR$/views/js/bandUserPhone.js" />
         <option value="$PROJECT_DIR$/common/css/common1.css" />
-        <option value="$PROJECT_DIR$/views/pages/bandUserPhone.html" />
         <option value="$PROJECT_DIR$/common/js/jquery.qrcode.min.js" />
         <option value="$PROJECT_DIR$/views/js/userActiveSelf.js" />
         <option value="$PROJECT_DIR$/views/css/userActiveSelf.css" />
         <option value="$PROJECT_DIR$/views/pages/userActiveSelf.html" />
-        <option value="$PROJECT_DIR$/views/pages/activeShare.html" />
         <option value="$PROJECT_DIR$/views/js/activeShare.js" />
+        <option value="$PROJECT_DIR$/views/pages/activeShare.html" />
+        <option value="$PROJECT_DIR$/views/pages/bandUserPhone.html" />
+        <option value="$PROJECT_DIR$/views/css/activeShare.css" />
       </list>
     </option>
   </component>
@@ -194,12 +224,6 @@
               <item name="telegramPopularize" type="b2602c69:ProjectViewProjectNode" />
               <item name="telegramPopularize" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="telegramPopularize" type="b2602c69:ProjectViewProjectNode" />
-              <item name="telegramPopularize" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -253,12 +277,12 @@
       <workItem from="1520997666479" duration="3934000" />
       <workItem from="1521005048846" duration="21000" />
       <workItem from="1521005094308" duration="15000" />
-      <workItem from="1521005119974" duration="23856000" />
+      <workItem from="1521005119974" duration="26736000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27826000" />
+    <option name="totallyTimeSpent" value="30706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -339,30 +363,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/css/activeShare.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/css/activeRules.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/activeRules.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="56" column="39" lean-forward="false" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,14 +399,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" column="131" lean-forward="false" selection-start-line="27" selection-start-column="131" selection-end-line="27" selection-end-column="131" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/bandUserPhone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="29" column="110" lean-forward="true" selection-start-line="29" selection-start-column="110" selection-end-line="29" selection-end-column="110" />
           <folding />
         </state>
       </provider>
@@ -438,30 +435,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/pages/userActiveSelf.html">
+    <entry file="file://$PROJECT_DIR$/views/js/activeShare.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="25" column="66" lean-forward="false" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
-          <folding>
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="495">
+          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/activeRules.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/bandUserPhone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="39" column="59" lean-forward="true" selection-start-line="39" selection-start-column="59" selection-end-line="39" selection-end-column="59" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/pages/activeShare.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="37" />
-          <folding>
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="192">
+          <caret line="49" column="48" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/js/activeShare.js">
+    <entry file="file://$PROJECT_DIR$/views/css/activeShare.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="33" column="18" lean-forward="false" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        <state relative-caret-position="288">
+          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/pages/userActiveSelf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="16" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/activeEnd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
