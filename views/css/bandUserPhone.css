@@ -17,6 +17,7 @@
 .nofix-tip-statement {
     padding-top: 8px;
     padding-bottom: 16px;
+    color: #938E8E!important;
 }
 .submitBindPhone {
     width: 100%;
@@ -43,8 +44,14 @@
     height: 0.16rem;
     background-color: #D1D1D6;
 }
-.note-code-container p {
-    width: calc(100% - 2.04rem);
+.note-code-container .getNoteCode-container {
+    width: calc(100% - 2.04rem)!important;
     line-height: 0.44rem;
     background-color: #EFEFF4;
+    border-top-right-radius: 4px!important;
+    border-bottom-right-radius: 4px!important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    color: #FF5208;
+    cursor: pointer;
 }
