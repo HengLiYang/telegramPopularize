@@ -7,11 +7,12 @@
     margin-bottom: .31rem;
 }
 .main .item:nth-child(2) {
-    height: .46rem;
-    margin-bottom: .24rem;
-    font-size: .2rem;
+    height: .66rem;
+    margin-bottom: .14rem;
+    font-size: .1rem;
     overflow: hidden;
     padding-left: .16rem;
+    position: relative;
 }
 .main .item:nth-child(2) input {
     width: 2rem;
@@ -24,6 +25,9 @@
     border: none;
     outline: none;
     float: left;
+}
+.main .warn {
+    display: none;
 }
 input::-webkit-input-placeholder {
     color: #C7C7CC;
@@ -42,7 +46,7 @@ input::-webkit-input-placeholder {
     height: .44rem;
     font-size: 15px;
     line-height: .44rem;
-    padding-left: .16rem;
+    /*padding-left: .16rem;*/
     border-radius: 0 4px 4px 0;
     background: #FFFFFF;
     color: #8E8E93;

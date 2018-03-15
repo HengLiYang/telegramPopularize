@@ -23,7 +23,8 @@
             <input type="text" name="epid" placeholder="请输入验证码">
             <i style="display: inline-block; width: 1px; height: .16rem; margin-top: .14rem; background: #D1D1D6;"></i>
         </span>
-        <span>60&nbsp;秒后重新获取</span>
+        <span class="countDown">获取验证码</span>
+        <span class="warn" style="position: absolute; left: .17rem; bottom: 0; color: #FF3B00;">验证码不正确</span>
     </div>
     <div class="item">
         <div class="btn">提到 imToken 钱包</div>
@@ -31,9 +32,34 @@
     <p>您当前的CAN未达到188枚，不可提币</p>
 </div>
 <script type="text/javascript" src="../common/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src='../common/js/countDown.js'></script>
 <script type="text/javascript">
     // 低版本浏览器不支持css时
     // document.documentElement.style.fontSize = window.innerWidth/7.5 + 'px'
+
+    // 获取验证码
+    $(".countDown").on('click', function() {
+        countDown(this)
+    })
+
+    $('.btn').on('click', function() {
+        $('.warn').css('display','none')
+        var data = $("input[name = 'epid']").val();
+        if(!data) {
+            $(".warn").css('display','block')
+        }
+        // $.ajax({
+        //     type: 'POST',
+        //     data: data,
+        //     url: '',
+        //     success: function() {
+            
+        //     },
+        //     error: function() {
+        //         $(".warn").css('display','block')
+        //     }
+        // })
+    })
 </script>
 </body>
 </html>

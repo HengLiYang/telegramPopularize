@@ -8,10 +8,14 @@
     margin-bottom: .31rem;
 }
 .main .item:nth-child(2) {
-    height: .46rem;
-    margin-bottom: .24rem;
+    height: .66rem;
+    margin-bottom: .14rem;
     font-size: .2rem;
     overflow: hidden;
+    position: relative;
+}
+.main .warn {
+    display: none;
 }
 .main .item:nth-child(2) input {
     width: 3.43rem;
