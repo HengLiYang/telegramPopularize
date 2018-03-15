@@ -19,7 +19,8 @@
 <div class="main">
     <h1>活动已结束</h1>
     <div class="item">
-        <input type="text" name="epid" placeholder="填写您的收货地址" onfocus="">
+        <input type="text" name="adress" placeholder="填写您的收货地址" onfocus="">
+        <span class="warn" style="position: absolute; left: .17rem; bottom: 0; color: #FF3B00;">验证码不正确</span>
     </div>
     <div class="item">
         <div class="btn">提交</div>
@@ -33,6 +34,13 @@
 <script type="text/javascript">
     // 低版本浏览器不支持css时
     // document.documentElement.style.fontSize = window.innerWidth/7.5 + 'px'
+    $('.btn').on('click', function () {
+        $('.warn').css('display', 'none');
+        var data = $("input[name = 'adress']").val();
+        if(!data) {
+            $('.warn').css('display', 'block');
+        }
+    })
 </script>
 </body>
 </html>
