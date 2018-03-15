@@ -12,7 +12,7 @@ $.fn.loading = function(options) {
 function countDown (btn) {
     var time = 5;
     var t = setInterval( function() {
-        console.log(time--)
+        console.log('hello')
         if(time>1) {
             time -- ;
             $(btn).loading().html(
