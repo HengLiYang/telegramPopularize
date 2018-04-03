@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57cd28bd-a724-4755-b176-a47f104d6412" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/js/Util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/js/clipboard.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/js/common.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/js/weixin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/css/drawcoin.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/js/drawcoin.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/assets/css/activeEnd.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/drawcoin.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/assets/css/promo.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/css/common1.css" afterPath="$PROJECT_DIR$/common/css/common1.css" />
-      <change beforePath="$PROJECT_DIR$/common/images/success_icon.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/js/countDown.js" afterPath="$PROJECT_DIR$/common/js/countDown.js" />
-      <change beforePath="$PROJECT_DIR$/views/activeEnd.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/css/bandUserPhone.css" afterPath="$PROJECT_DIR$/views/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/views/drawcoin.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/js/activeShare.js" afterPath="$PROJECT_DIR$/views/js/activeShare.js" />
-      <change beforePath="$PROJECT_DIR$/views/js/bandUserPhone.js" afterPath="$PROJECT_DIR$/views/js/index.js" />
-      <change beforePath="$PROJECT_DIR$/views/js/userActiveSelf.js" afterPath="$PROJECT_DIR$/views/js/userActiveSelf.js" />
-      <change beforePath="$PROJECT_DIR$/views/pages/activeShare.html" afterPath="$PROJECT_DIR$/views/pages/activeShare.html" />
-      <change beforePath="$PROJECT_DIR$/views/pages/bandUserPhone.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="$PROJECT_DIR$/views/pages/userActiveSelf.html" afterPath="$PROJECT_DIR$/views/pages/userActiveSelf.html" />
-      <change beforePath="$PROJECT_DIR$/views/promo.html" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -37,7 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="activeShare.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/js/activeShare.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-291">
+              <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -260,24 +249,25 @@
       <workItem from="1521005094308" duration="15000" />
       <workItem from="1521005119974" duration="29796000" />
       <workItem from="1522032383018" duration="21982000" />
-      <workItem from="1522386603063" duration="22491000" />
+      <workItem from="1522386603063" duration="23243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78239000" />
+    <option name="totallyTimeSpent" value="78991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5024665" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24062878" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24062878" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -569,7 +559,7 @@
         <state relative-caret-position="450">
           <caret line="30" column="65" lean-forward="false" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
           <folding>
-            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -616,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/js/activeShare.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="16" column="18" lean-forward="false" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="-291">
+          <caret line="16" column="21" lean-forward="false" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
           <folding />
         </state>
       </provider>

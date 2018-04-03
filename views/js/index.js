@@ -68,7 +68,7 @@ $(function () {
     function commitAddressConnector() {    // 获取提交地址接口
         $.ajax({
             type: 'POST',
-            url: '/code/smsbind',
+            url: 'code/smsbind',
             data: {
                 identitycode: getIdentitycode(), //用户标识码，从本地存储或者url参数中获取
                 telphone: $("#mobilephone").val() ,// 用户手机号
