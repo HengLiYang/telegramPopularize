@@ -33,7 +33,7 @@ $(function () {
     function getCanPassConector() { //获取提币noteCOde接口
         $.ajax({
             type: 'POST',
-            url: 'apply/smsapi',
+            url: '../../apply/smsapi',
             data: {
                 identitycode: getIdentifycode() //用户标识码，从本地存储或者url参数中获取
             },

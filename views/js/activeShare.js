@@ -14,7 +14,7 @@ $(function () {
     function userInfoConector() { //info接口获取
         $.ajax({
             type: 'POST',
-            url: 'info',
+            url: '../../info',
             data: {
                 identitycode: getIdentifycode()
             },

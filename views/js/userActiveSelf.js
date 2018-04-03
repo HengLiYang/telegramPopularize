@@ -12,7 +12,7 @@ $(function () {
         function weixinShareMethod() {
             $.ajax({
                 type: 'GET',
-                url: 'weixin/signture',
+                url: '../../weixin/signture',
                 data: {
                     url: window.location.href.split('#')[0]
                 },
