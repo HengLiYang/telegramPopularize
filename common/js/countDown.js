@@ -10,9 +10,8 @@ $.fn.loading = function(options) {
 }
 // 倒计时
 function countDown (btn) {
-    var time = 5;
+    var time = 60;
     var t = setInterval( function() {
-        console.log('hello')
         if(time>1) {
             time -- ;
             $(btn).loading().html(
@@ -23,7 +22,7 @@ function countDown (btn) {
             $(btn).off('click');
         }else {
             clearInterval(t);
-            time = 5;
+            time = 60;
             $(btn).on('click', function() {
                     countDown(this);
                     $(btn).off('click');

@@ -20,7 +20,7 @@
     border-radius: 4px 0 0 4px;
     padding: 10px 16px;
     background: #FFFFFF;
-    font-size: .24rem;
+    font-size: 17px;
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -63,10 +63,13 @@ input::-webkit-input-placeholder {
     border-radius: 4px;
     background: #FFCF00 100%;
     color: #AC5A00;
-    font-size: 24px;
+    font-size: 17px;
     margin: 0 auto;
 }
 .main p {
     font-size: 13px;
     line-height: .18rem;
+}
+.getBiToken-btn {
+    cursor: pointer;
 }
