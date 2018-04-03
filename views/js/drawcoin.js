@@ -57,7 +57,7 @@ $(function () {
     function getCountCanConector() { //获取提币account and verifysms接口
         $.ajax({
             type: 'POST',
-            url: 'apply',
+            url: '../../apply',
             data: {
                 identitycode: getIdentifycode(), //用户标识码，从本地存储或者url参数中获取
                 smscode: $("#codeCANPhone").val()
