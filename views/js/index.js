@@ -1,6 +1,6 @@
 $(function () {
     if (GetLocalStorage('identitycode') !== null) {
-        window.location.href = '/views/pages/activeShare.html?identitycode=' + GetLocalStorage('identitycode');
+        window.location.href = './views/pages/activeShare.html?identitycode=' + GetLocalStorage('identitycode');
     }
     $(".getNoteCode-container").click(function () {    // 点击获取验证码展示倒计时
         if (verifyMobileFormatter()) {
@@ -79,7 +79,7 @@ $(function () {
                 if (res.code === 200) {
                     $(".unkow-error").html('').hide() ;
                     SetLocalStorage ( 'identitycode', res.identitycode) ;
-                    window.location.href = '/views/pages/activeShare.html?identitycode=' + res.identitycode ;
+                    window.location.href = './views/pages/activeShare.html?identitycode=' + res.identitycode ;
                     return true
                 } else {
                     $(".unkow-error").html(res.msg).show() ;
